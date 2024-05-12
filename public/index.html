@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <title>Plain HTML site using GitLab Pages</title>
+    <link rel="stylesheet" href="css/style.css">
+      <script src="https://unpkg.com/vue@latest"></script>
+  </head>
+  <body>
+    <div id="principale">
+      <h1 id="titre"></h1>
+      <h2 id="nom"></h2>
+      <a href="#presentationSpan" id="lienBouton"><button href="#presentationSpan">Suivant !</button></a>
+    </div>
+
+    <span class="espaceMenu" id="presentationSpan"></span>
+    <h2 class="titrePartie" id="presentation">Présentation</h2>
+    <div class="contenu">
+        <img id="profilImg" src="img/photoProfil.png">
+        <p>
+            Pationnée d'informatique depuis mon plus jeune age, j'ai pu m'être un premier pas dans ce domaine grâce à ma
+            participation à des activité organisé par ma communauté de commune. Ensuite, j'ai pu suivre au lycée la
+            spécialité NSI et enfin, j'ai eu la chance de pouvoir intégrer le BUT - Informatique à l'IUT Lyon 1 dont je
+            suis actuellement en seconde année. Curieuse et motivée, je suis toujours partante pour en apprendre
+            d'avantage dans ce domaine à l'aide de projet mais également grâce aux expériences qui s'offre à moi.
+        </p>
+    </div>
+
+    <span class="espaceMenu" id="porteFeuilleCompétencesSpan"></span>
+    <h2 class="titrePartie" id="porteFeuilleCompétences">Porte Feuille de Compétences</h2>
+    <div class="contenu">
+
+        <div class="timeline">
+
+            <div class="timeline_object complete">
+                <div class="timeline-status selected"></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°1</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+            <div class="timeline_object complete">
+                <div class="timeline-status "></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°2</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+            <div class="timeline_object complete">
+                <div class="timeline-status "></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°3</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+            <div class="timeline_object complete">
+                <div class="timeline-status "></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°4</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+            <div class="timeline_object complete">
+                <div class="timeline-status"></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°5</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+            <div class="timeline_object">
+                <div class="timeline-status"></div>
+                <div class="timeline_content">
+                    <h4>Compétence n°6</h4>
+                    <span>Titre de la compétence</span>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="detailCompétence">
+
+        </div>
+
+    </div>
+
+    <span class="espaceMenu" id="technoUtiliseeSpan"></span>
+    <h2 class="titrePartie" id="technoUtilisee">Technologies utilisées</h2>
+    <div class="menu_techno">
+        <div class="onglet_techno selected" id="0">Three.js</div>
+        <div class="onglet_techno" id="1">Javascript</div>
+        <div class="onglet_techno" id="2">HTML</div>
+        <div class="onglet_techno" id="3">CSS</div>
+        <div class="onglet_techno" id="4">Vue.js</div>
+        <div class="onglet_techno" id="5">Android Studio</div>
+        <div class="onglet_techno" id="6">Java</div>
+        <div class="onglet_techno" id="7">Python</div>
+    </div>
+    <div class="contenu" id="technodiv">
+        <div id="technoDescription">
+            <canvas id="cube"></canvas>
+            <p id="descriptionText"></p>
+        </div>
+    </div>
+
+    <span class="espaceMenu" id="realisationProjetsSpan"></span>
+    <h2 class="titrePartie" id="realisationProjets">Réalisations / Projets</h2>
+    <div class="contenu" id="projetDiv">
+        <h2>Vous trouverez ci-dessous quelques uns de mes projets récents :</h2>
+        <section class="sectionProjet" id="myApp">
+
+        </section>
+
+
+    </div>
+
+
+    <span class="espaceMenu" id="cvSpan"></span>
+    <h2 class="titrePartie" id="cv">CV</h2>
+    <div class="contenu" id="pdfDiv">
+        <p>Voici ci-dessous mon CV :</p>
+        <embed id="pdf" src="pdf/CV_Camille_Morfin.pdf" type="application/pdf"/>
+    </div>
+
+    <div class="espaceMenu" id="menu">
+        <a href="#presentationSpan" class="menu_a">
+            <div class="onglet">
+                <h3>Présentation</h3>
+            </div>
+        </a>
+        <a href="#porteFeuilleCompétencesSpan" class="menu_a">
+          <div class="onglet">
+            <h3>Porte Feuille de Compétences</h3>
+          </div>
+        </a>
+        <a href="#technoUtiliseeSpan" class="menu_a">
+            <div class="onglet">
+                <h3>Technologies utilisées</h3>
+            </div>
+        </a>
+        <a href="#realisationProjetsSpan" class="menu_a">
+            <div class="onglet">
+              <h3>Réalisations / Projets</h3>
+            </div>
+        </a>
+        <a href="#cvSpan" class="menu_a">
+            <div class="onglet">
+              <h3>CV</h3>
+            </div>
+        </a>
+    </div>
+
+    <script type="importmap">
+        {
+            "imports": {
+              "three": "./vendor/three/build/three.module.js",
+              "three/addons/": "./vendor/three/examples/jsm/"
+            }
+          }
+    </script>
+
+<script src="js/script.js"></script>
+    <script src="js/slideImg.js" type="module" defer></script>
+    <script src="js/technoImport.js" type="module"></script>
+  </body>
+</html>
