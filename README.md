@@ -41,6 +41,7 @@ Pationnée d'informatique depuis mon plus jeune age, j'ai pu m'être un premier 
 ## CV
 
 ## Description du projet
-
+Ce projet à été entièrement rélisé par moi, en passant même par quelque représentation 3d à l'aide de blender comme le logo d'Android Studio ou encore celui de Vue.js, ...
+Ce projet à été réalisé en HTML, CSS, Javascript et un peu de Three.js pour l'intégration des modèles 3d dans le descriptif des [technologies utilisées](#technologies-utilisées).
 ## Contact
 Pour plus d'information vous pouvez me contacter à l'adresse si après [morfincamille@gmail.com](mailto:morfincamille@gmail.com) et retrouver certains de mes projet sur [GitHub](https://github.com/CamsCams04)
