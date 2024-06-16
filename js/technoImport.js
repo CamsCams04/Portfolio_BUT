@@ -6,7 +6,8 @@ const pDescription = document.getElementById("descriptionText");
 
 const ongletsTechno = document.querySelectorAll(".onglet_techno");
 
-const text = ["Three.js est une bibliothèque JavaScript open source qui permet de créer et de visualiser des graphiques 3D dans un navigateur web. ",
+const text = ["Three.js est une bibliothèque JavaScript open source qui permet de créer et de visualiser des modèles 3D dans un navigateur web. " +
+                        "Three.js permet également d'intégrer des animations 3D aux sites web.",
                         "JavaScript est un langage de programmation polyvalent et dynamique utilisé principalement pour créer des applications web interactives. " +
                         "JavaScript est un langage de programmation de haut niveau principalement utilisé pour créer des fonctionnalités interactives sur les sites web. " +
                         "Il permet de manipuler le contenu HTML et CSS d'une page web, d'interagir avec l'utilisateur via des événements et des actions dynamiques, et de " +
@@ -19,13 +20,13 @@ const text = ["Three.js est une bibliothèque JavaScript open source qui permet 
                         "Vue.js est un framework JavaScript moderne et polyvalent, offrant une approche simple et intuitive pour le développement d'applications web réactives et performantes." +
                         " Son écosystème complet, sa flexibilité et sa facilité d'utilisation en font un choix populaire parmi les développeurs.",
                         "Android Studio est un environnement de développement intégré (IDE) officiellement pris en charge par Google pour le développement d'applications Android. " +
-                        "Il offre une suite d'outils puissants pour la création, le débogage, le test et le déploiement d'applications Android." +
-                        "Pour créer son application Android Studio nous propse de la developper soit en Kotlin soit en Java et pour la mise en page, il propose l'utilisation de XML.",
+                        "Il offre une suite d'outils puissants pour la création, le débogage, le test et le déploiement d'applications Android. " +
+                        "Pour la création d'applications, Android Studio nous laisse le choix entre les languages de programmation Kotlin et Java. Pour la mise en page, il nous propose l'utilisation de XML.",
                         "Java est un langage de programmation polyvalent et orienté objet largement utilisé pour développer des applications logicielles, des applications mobiles, des jeux, " +
                         "des sites web et bien plus encore. Connu pour sa portabilité et sa robustesse, Java peut être exécuté sur diverses plates-formes grâce à la machine virtuelle Java (JVM). " +
                         "Il est apprécié pour sa sécurité, sa fiabilité, sa facilité d'utilisation et sa grande communauté de développeurs. Java est utilisé dans de nombreux domaines, notamment le " +
                         "développement d'applications d'entreprise, les applications Android, les applications web et les jeux.",
-                        "Python est un langage de programmation interprété, polyvalent et convivial, connu pour sa simplicité syntaxique et sa lisibilité. Il est largement utilisé dans le développement web, " +
+                        "Python est un langage de programmation connu pour sa simplicité syntaxique et sa lisibilité. Il est largement utilisé dans le développement web, " +
                         "l'analyse de données, l'intelligence artificielle, l'apprentissage automatique, l'automatisation des tâches et bien d'autres domaines. Python favorise la productivité des développeurs " +
                         "grâce à sa syntaxe concise et à ses nombreuses bibliothèques et frameworks. Il est apprécié pour sa facilité d'apprentissage, sa flexibilité, sa polyvalence et sa grande communauté de développeurs. " +
                         "Python est souvent utilisé pour prototyper rapidement des projets et développer des applications efficaces et évolutives.",
