@@ -91,10 +91,10 @@ switch (indSelect){
         sizeCamera = 6;
         break;
     case 8:
-        linkMTL = "./assets/logo/rust.mlt";
+        linkMTL = "./assets/logo/rust.mtl";
         linkOBJ = "./assets/logo/rust.obj";
         description = text[8];
-        sizeCamera = 10;
+        sizeCamera = 7;
         break;
     default :
         console.log("cette techno n'hexiste pas");
@@ -160,10 +160,10 @@ ongletsTechno.forEach(onglet =>{
                 sizeCamera = 6;
                 break;
             case 8:
-                linkMTL = "./assets/logo/rust.mlt";
+                linkMTL = "./assets/logo/rust.mtl";
                 linkOBJ = "./assets/logo/rust.obj";
                 description = text[8];
-                sizeCamera = 10;
+                sizeCamera = 7;
                 break;
             default :
                 console.log("Cette techno n'existe pas");
