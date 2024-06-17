@@ -24,13 +24,13 @@ body{
   align-items: center;
 }
 
-h1, h2, p, h3, h4, span{
+h1, h2, p, h3, h4, span, li{
   font-family: "Baskerville Old Face";
   color: white;
   letter-spacing: 3px;
 }
 
-h1, h2, p, h3{
+h1, h2, p, h3, li{
   margin: 25px;
 }
 
@@ -80,7 +80,7 @@ button:active {
 }
 
 
-h1, h2, h3, p, span, button, div{
+h1, h2, h3, p, span, button, div, li{
   opacity: 0;
   animation: fadeIn 4s forwards;
 }
@@ -161,7 +161,7 @@ h3{
   margin-left: 10px;
 }
 
-p{
+p, li{
   font-size: 20px;
   text-align: justify;
 }
@@ -259,7 +259,6 @@ p{
 
 .detailCompétence{
   width: 70%;
-  height: 100%;
   margin-left: 30px;
   background-color: rgba(173, 84, 208, 0.3);
   border-radius: 20px;
@@ -483,6 +482,7 @@ canvas{
   align-items: center;
   justify-content: center;
   width: 12.5%;
+  color: white;
 }
 
 .onglet_techno:first-child{
@@ -520,4 +520,21 @@ canvas{
 
 #logo{
   width: 10%;
+}
+
+.detailCompétence{
+  height: 550px;
+  overflow-y: auto;
+}
+.detailCompétence::-webkit-scrollbar {
+  width: 0;
+}
+
+.linkText {
+  color: white;
+  text-decoration: underline;
+}
+
+.linkText:hover{
+  color: #bd85bd;
 }

@@ -7,7 +7,7 @@ const App = Vue.createApp({
     template: `
       <h2> Projet réalisé dans le cadre du BUT :</h2>
       <section class="partProjet">
-        <h3>Graph Map :</h3>
+        <h3 id="graphMap">Graph Map :</h3>
         <div class="divProjet">
             <p class="textSlide">Réalisé en java, ce projet à pour but d'aider à la décision pour un responsable de plus de 30 établissements,
             via une interface IHM. 
@@ -19,7 +19,7 @@ const App = Vue.createApp({
                   img3="./img/Graph/fonctionnalité.png"
               />
         </div>
-        <h3>VroumVoum :</h3>
+        <h3 id="vroumvroum">VroumVoum :</h3>
         <div class="divProjet">
               <Slide
                   img1="./img/vroumvroum/principale.png"
@@ -55,6 +55,21 @@ const App = Vue.createApp({
               img1="./img/Loto/PrincipaleLoto.png"
               img2="./img/Loto/ModeJeuLoto.png"
               img3="./img/Loto/JeuLoto.png"
+          />
+      </div>
+      <h2 id="stage">Projet réalisé durant le stage :</h2>
+      <h3>Stage chez Hélodée :</h3>
+      <div class="divProjet">
+          
+          <p class="textSlide">Hélodée est une start-up, TPE située à Givors qui à pour but d'accompagner les autres entreprises à définir au mieux leurs besoins en supports techniques numériques que 
+          ce soit en support de communications techniques ou pédagogiques.<br>
+          Durant mon stage j’ai eu une tâche très précise. J’ai dû convertir un site initialement en PHP – Symfony en RUST, langage nouveau pour moi. Ce site qu’ils nomment la « Base Documentaires » 
+          est mis au service de nombreux clients d’Hélodée. Il consiste à stocker les informations et documents du client sous de nombreux formats.<br>
+           Durant ce stage, j'ai pu apprendre l'utilisation de Bootstrap mais égalemant de Rust</p>
+          <Slide
+              img1="./img/logo-helodee-noir.png"
+              img2="./img/logo-helodee-noir.png"
+              img3="./img/logo-helodee-noir.png"
           />
       </div>
     `
